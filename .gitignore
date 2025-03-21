@@ -1,0 +1,25 @@
+# Ignore node_modules if using Node.js
+node_modules/
+
+# Ignore build artifacts
+dist/
+build/
+
+# Ignore log files
+*.log
+
+# Ignore environment files
+.env
+.env.local
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore specific assets if they are not needed
